@@ -1,10 +1,49 @@
 h1 {
-    color: blue;
-    font-family: 'Franklin Gothic Medium',  sans-serif;
+    color: lightslategray;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     text-align: center;
-    background: tomato;
-    line-height: 35px;
-    margin: 20px
+    margin: 20px;
+}
+body {
+    background: tan;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: right;
+    justify-content: row 1/ column 1;
+
+}
+nav {
+    color: black;
+    flex-direction: left;
+    justify-content: row 1 / column 2;
+}
+   a:hover { 
+        background-color: yellow;
+   }
+a {
+    text-decoration: none;
+    font-size: 25px;
+    list-style-type: none;
+    color: lightblue;
+
+}
+
+        
+      
     
+
+ul{
+    list-style-type: none;
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: left;
+    justify-content: row 2;
+    margin: 50px;
+    
+}
+li {
+    margin: 40px;
+
 }
