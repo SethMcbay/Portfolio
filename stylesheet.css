@@ -9,8 +9,8 @@ body {
     background: tan;
     margin: 0 auto;
     display: flex;
-    flex-direction: right;
-    justify-content: row 1/ column 1;
+    flex-direction: column;
+    justify-content: row 1/ column 1; 
 
 }
 nav {
@@ -28,7 +28,11 @@ a {
     color: lightblue;
 
 }
+img {
+    display: flex;
+    justify-content: center;
 
+}
         
       
     
